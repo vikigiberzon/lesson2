@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TypeScriptCompiler">
+    <option name="typeScriptServiceDirectory" value="C:\Users\dp25806\AppData\Roaming\npm\node_modules\typescript\lib" />
+    <option name="hasOutDirectory" value="true" />
+    <option name="outDirectory" value="$FileDir$/dist" />
+    <option name="versionType" value="SERVICE_DIRECTORY" />
+  </component>
+</project>

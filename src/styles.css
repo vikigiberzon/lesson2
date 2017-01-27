@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header{
+    background-color: gray;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapid {
+    height: calc(1000% - 100px);
+}

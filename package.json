@@ -1,0 +1,23 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/geojson": "0.0.32",
+    "@types/leaflet": "^1.0.50",
+    "leaflet": "^1.0.3"
+  },
+  "devDependencies": {
+    "copyfiles": "^1.1.0",
+    "onchange": "^3.2.1",
+    "reload": "^1.1.0"
+  },
+  "scripts": {
+    "onchange": "onchange src/**/*.* -- npm run move",
+    "dev": "reload -b -d dist| tsc -w| npm run onchange",
+    "move": "copyfiles -f ./src/*.html ./src/*.css dist"
+  },
+  "author": "",
+  "license": "ISC"
+}
